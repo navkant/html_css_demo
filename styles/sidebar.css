@@ -1,10 +1,27 @@
 .sidebar {
-    background-color: pink;
     position: fixed;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: top;
     width: 80px;
     top: 55px;
     left: 0;
     bottom: 0;
+}
+
+.sidebar-icon {
+    height: 24px;
+}
+
+.sidebar-element {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.sidebar-text {
+    font-family: Roboto, Arial;
+    font-size: 10px;
 }
