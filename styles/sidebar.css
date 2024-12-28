@@ -1,0 +1,10 @@
+.sidebar {
+    background-color: pink;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+}
